@@ -20,7 +20,7 @@ function Header() {
           //    navigate('/')
           // }}
         >
-          TonResistance
+          Ton<span  style={{ fontFamily: 'Bruno Ace SC', marginLeft: '3px' }} className='text-red-400 fs-2 font-extrabold'>Resistance</span> 
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -31,14 +31,14 @@ function Header() {
           >
             <Nav.Link
               style={{ fontFamily: 'poppins' }}
-              className="text-white "
+              className="text-white"
               href="learn"
-            >
-              Learn To Earn
+            > <h2 className='hover:text-white text-gray-300 text-md font-bold'>Resistance Hub</h2>
+              
             </Nav.Link>
             <Nav.Link
               style={{ fontFamily: 'poppins' }}
-              className="text-white"
+              className="hover:text-white text-gray-300 text-md font-bold"
               href="coins/:id"
             >
               Profile
